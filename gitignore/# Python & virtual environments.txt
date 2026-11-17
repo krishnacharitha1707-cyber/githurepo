@@ -1,0 +1,14 @@
+# Python & virtual environments
+.venv/
+_pycache_/
+*.pyc
+
+# Environment secrets (keep .env.example, ignore real .env)
+.env
+
+# Raw data & DuckDB files
+data/
+*.parquet
+*.csv
+*.duckdb
+*.duckdb.wal

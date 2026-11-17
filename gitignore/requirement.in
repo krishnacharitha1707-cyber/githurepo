@@ -1,0 +1,5 @@
+duckdb
+polars
+pandera[polars]
+pyarrow
+pytest

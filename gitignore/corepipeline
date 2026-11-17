@@ -1,0 +1,13 @@
+corvane-taxi-pipeline/
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── data/
+│   └── raw/          <-- Place 1 yellow-taxi .parquet file here (ignored by Git)
+├── src/
+│   └── pipeline.py
+├── .env.example
+├── .gitignore
+├── Makefile
+├── README.md
+└── requirements.in
