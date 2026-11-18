@@ -1,0 +1,20 @@
+create database time_zone;
+create table time_zone.taxi_zone(
+Location_id INT,
+borough varchar(20),
+zone_name varchar(100),
+service_zone varchar(20));
+
+
+--------
+create table time_zone.fact_trips(
+vendor_id varchar(20),
+distance float,
+pickzone_id int,
+dropzone_id int,
+amount int,
+ current datetime);
+ 
+ create table time_zone.dim_calender(
+ zone_id varchar(20),
+ trip_hour datetime);
